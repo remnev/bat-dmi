@@ -1,7 +1,8 @@
-import Header from './header'
+import Header from '../header';
+import './layout.styl';
 
 const Layout = (props) => (
-  <div>
+  <div className="layout">
     <Header />
     {props.children}
   </div>

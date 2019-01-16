@@ -11,9 +11,12 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "repository": "https://github.com/remnev/bat-dmi",
   "dependencies": {
+    "@zeit/next-stylus": "^1.0.1",
     "next": "^7.0.2",
     "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "react-dom": "^16.7.0",
+    "stylus": "^0.54.5"
   }
 }
