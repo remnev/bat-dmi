@@ -7,10 +7,10 @@ const Header = () => (
         <img className="header__logo" src="/static/logo.png" />
         <ul className="header__menu" style={{visibility: 'hidden'}}>
           <li className="header__menu-item_active">
-            <a href="/">Главная</a>
+            <Link href="/"><a>Главная</a></Link>
           </li>
           <li>
-            <a href="/contacts.html">Контакты</a>
+            <Link href="/contacts"><a>Контакты</a></Link>
           </li>
         </ul>
         <div className="header__contacts">

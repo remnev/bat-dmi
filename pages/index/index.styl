@@ -1,0 +1,197 @@
+.content
+    max-width: 1200px
+    min-width: 800px
+    margin: 0 auto
+    padding: 0 80px
+
+    &_type_main
+        max-width: none
+        min-width: none
+        margin: 0
+        padding: 0
+
+        & ^[0]__top
+            height: 500px
+            background-image: url('/static/bg-clubs-compressor.jpg')
+            background-size: cover
+            background-position-x: right
+            min-width: 800px
+            margin: 0 auto
+            padding: 0 80px
+            display: flex
+            flex-direction: column
+            align-items: center
+            justify-content: center
+
+            h1
+                color: #fff
+                margin: 0
+                font-size: 36px
+                text-shadow: 0 2px 4px #000
+
+        & ^[0]__top-contacts a
+            display: inline-block
+            color: #fff
+            margin-top: 40px
+            text-decoration: none
+            font-size: 20px
+            text-shadow: 0 1px 2px #000
+
+        & ^[0]__description
+            max-width: 1200px
+            min-width: 800px
+            margin: 0 auto
+            padding: 40px 80px
+            display: flex
+
+            p
+                padding-right: 20px
+                line-height: 1.6em
+
+        & ^[0]__price
+            border-top: 5px solid #405dab
+
+            h2
+                text-align: center
+                color: #4757a8
+                text-transform: uppercase
+
+        & ^[0]__price-container
+            max-width: 1200px
+            min-width: 800px
+            margin: 0 auto
+
+            section
+                width: 360px
+                min-height: 180px
+                margin: 0 10px 20px
+                border-radius: 4px
+                color: #fff
+                text-align: center
+                padding: 20px 10px
+
+                &:nth-child(1n)
+                    background-color: #0b7ab2
+
+                &:nth-child(2n)
+                    background-color: #9d5c9e
+
+                &:nth-child(3n)
+                    background-color: #725aa4
+
+                h1
+                    margin: 0
+                    font-size: 18px
+                    text-transform: uppercase
+
+                    & + div
+                        margin-top: 20px
+                        font-size: 36px
+
+                ul
+                    list-style-type: none
+                    padding: 0
+                    font-size: 16px
+
+                li
+                    margin-top: 20px
+
+                    & strong + div
+                        margin-top: 8px
+
+        & ^[0]__section-container
+            display: flex
+            justify-content: center
+            flex-wrap: wrap
+
+            & + h2
+                margin-top: 60px
+
+        & ^[0]__gifts-container
+            display: flex
+
+            ul
+                list-style-type: none
+
+            h3
+                color: #0b7ab2
+
+            img
+                width: 400px
+
+
+        & ^[0]__photo
+
+            h2
+                text-align: center
+                color: #4757a8
+                text-transform: uppercase
+
+            ul
+                list-style-type: none
+                padding: 0
+                display: flex
+                flex-wrap: wrap
+                line-height: 0
+
+            li
+                display: inline-block
+                width: calc(25% - 8px)
+                padding: 2px
+                flex-shrink: 0
+
+            img
+                width: 100%
+
+        & ^[0]__services
+            max-width: 1200px
+            min-width: 800px
+            margin: 0 auto
+
+            h2
+                text-align: center
+                color: #4757a8
+                text-transform: uppercase
+
+        & ^[0]__services-container
+            display: flex
+            flex-wrap: wrap
+            justify-content: center
+
+            section
+                width: 370px
+                min-height: 280px
+                box-sizing: border-box
+                padding: 30px
+                margin: 10px
+                text-align: center
+                color: #fff
+                border-radius: 4px
+
+                &:nth-child(1)
+                    background-color: #4757a8
+
+                &:nth-child(2)
+                    background-color: #9d5c9e
+
+                &:nth-child(3)
+                    background-color: #0b7ab2
+
+                &:nth-child(4)
+                    background-color: #0b7ab2
+
+                &:nth-child(5)
+                    background-color: #9d5c9e
+
+                &:nth-child(6)
+                    background-color: #4757a8
+
+                i
+                    font-size: 30px
+                    text-shadow: 0 1px 4px rgba(0, 0, 0, .6)
+
+                h1
+                    text-shadow: 0 1px 4px rgba(0, 0, 0, .6)
+
+                p
+                    color: rgba(255, 255, 255, .9)
