@@ -1,16 +1,22 @@
-import Link from 'next/link';
+import Link from '../link';
 import './header.styl';
 
 const Header = () => (
     <header className="header">
       <div className="header__content">
         <img className="header__logo" src="/static/logo.png" />
-        <ul className="header__menu" style={{visibility: 'hidden'}}>
-          <li className="header__menu-item_active">
-            <Link href="/"><a>Главная</a></Link>
+        <ul className="header__menu">
+          <li>
+            <Link
+              href="/"
+              activeClassName="header__menu-item_active"
+            ><a>Главная</a></Link>
           </li>
           <li>
-            <Link href="/contacts"><a>Контакты</a></Link>
+            <Link
+              href="/contacts"
+              activeClassName="header__menu-item_active"
+            ><a>Контакты</a></Link>
           </li>
         </ul>
         <div className="header__contacts">

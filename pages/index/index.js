@@ -3,12 +3,15 @@ import './index.styl';
 import Layout from '../../components/layout';
 
 export default () => (
-    <Layout>
+    <Layout
+      title="Батутный центр COSMICA в Дмитрове – прыжки на батуте для детей и взрослых"
+      description="Батутный центр COSMICA в Дмитрове приглашает детей и взрослых на увлекательные тренировки. У нас отличные цены на прыжки. Скалодром. Веревочный городок."
+    >
     <div className="content content_type_main">
       <div className="content__top">
         <h1>Батутный центр COSMICA в Дмитрове</h1>
         <div className="content__top-contacts">
-          <Link href="/contacts.html"><a>ул. Профессиональная, д. 25, СК "Дмитров", парк "Экстрим", +7 (977) 33-777-97</a></Link>
+          <Link href="/contacts"><a>ул. Профессиональная, д. 25, СК "Дмитров", парк "Экстрим", +7 (977) 33-777-97</a></Link>
         </div>
       </div>
       <div className="content__description" id="description">

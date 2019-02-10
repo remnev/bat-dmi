@@ -24,7 +24,7 @@ const Footer = () => (
             <i className="fa fa-phone" aria-hidden="true"></i> +7 977 337 77 97
           </li>
           <li>
-            <i className="fa fa-map-marker" aria-hidden="true"></i> <a href="https://yandex.ru/maps/-/CBF6Y2EFSB">г. Дмитров ул. Профессиональная, СК "Дмитров", парк "Экстрим"</a>
+            <i className="fa fa-map-marker" aria-hidden="true"></i> <a href="https://yandex.ru/maps/-/CBF6Y2EFSB">г. Дмитров, ул. Профессиональная, СК "Дмитров", парк "Экстрим"</a>
           </li>
           <li>
             <i className="fa fa-envelope-o" aria-hidden="true"></i> <a href="mailto:contact@batut-dmitrov.ru">contact@batut-dmitrov.ru</a>
